@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(to right,rgb(14, 168, 168), rgb(5, 75, 122));
+    text-align: center;
+    color: white;
+}
+
+
+.container{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 50%;
+    background-color: rgb(0, 0, 0, 0.3);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+button{
+    background-color: midnightblue;
+    border: none;
+    color: white;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px black;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: mediumblue;
+}
+
+.inicio, .dados{
+    display: none;
+}
+
+input{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
